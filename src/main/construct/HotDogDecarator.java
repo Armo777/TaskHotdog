@@ -4,7 +4,7 @@ import main.HotDog;
 
 public abstract class HotDogDecarator implements Decaretable{
 
-    private final HotDog hotDog;
+    private HotDog hotDog;
 
     protected HotDogDecarator(HotDog hotDog) {
         this.hotDog = hotDog;

@@ -82,14 +82,15 @@ public class HotDog {
 
     @Override
     public String toString() {
-        return "java.HotDog{" +
-                "mayonnaiseCount=" + mayonnaiseCount +
-                ", mustardCount=" + mustardCount +
-                ", ketchupCount=" + ketchupCount +
-                ", onionCount=" + onionCount +
-                ", jalapenoCount=" + jalapenoCount +
-                ", chileCount=" + chileCount +
-                ", cucumberCount=" + cucumberCount +
-                '}';
+        final StringBuilder sb = new StringBuilder("HotDog{");
+        sb.append("mayonnaiseCount=").append(mayonnaiseCount);
+        sb.append(", mustardCount=").append(mustardCount);
+        sb.append(", ketchupCount=").append(ketchupCount);
+        sb.append(", onionCount=").append(onionCount);
+        sb.append(", jalapenoCount=").append(jalapenoCount);
+        sb.append(", chileCount=").append(chileCount);
+        sb.append(", cucumberCount=").append(cucumberCount);
+        sb.append('}');
+        return sb.toString();
     }
 }

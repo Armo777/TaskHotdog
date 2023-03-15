@@ -1,6 +1,7 @@
 package main;
 
 public class HotDodUtils {
+
     public static HotDog doSpaceHotDog() {
         HotDog hotDog = new HotDog();
         hotDog.setChileCount(2);
