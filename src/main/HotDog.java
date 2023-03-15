@@ -1,8 +1,9 @@
 package main;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class HotDog {
+public class HotDog implements Serializable {
     private int mayonnaiseCount;
     private int mustardCount;
     private int ketchupCount;
